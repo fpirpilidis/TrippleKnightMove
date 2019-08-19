@@ -1,2 +1,2 @@
 # TrippleKnightMove
-Reach target with Knight in 3 moves
+Reach target with a knight in 3 moves.
