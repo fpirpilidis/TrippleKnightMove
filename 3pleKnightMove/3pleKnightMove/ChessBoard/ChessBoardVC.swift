@@ -129,7 +129,7 @@ class ChessBoardVC: UIViewController {
                 imageV.frame.origin.y = CGFloat(self.keepPoint.y)
                 self.isAnimationFilished = true
             }
-            print("Filished!")
+            
         }
     }
     
