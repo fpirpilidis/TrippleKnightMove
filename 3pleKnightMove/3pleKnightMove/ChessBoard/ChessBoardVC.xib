@@ -10,7 +10,77 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChessBoardVC" customModule="_pleKnightMove" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChessBoardVC" customModule="_pleKnightMove">
+            <connections>
+                <outlet property="img00" destination="KDT-7i-6wc" id="0l9-Mb-VZB"/>
+                <outlet property="img01" destination="Dbh-fa-PJl" id="P7N-aL-BPa"/>
+                <outlet property="img02" destination="xsG-1y-iQX" id="eQC-xd-wAV"/>
+                <outlet property="img03" destination="uN5-XM-tbR" id="kFy-xP-cWH"/>
+                <outlet property="img04" destination="JX0-9u-7r7" id="qo1-bk-TDp"/>
+                <outlet property="img05" destination="ACl-G2-cwW" id="KsA-g2-U5U"/>
+                <outlet property="img06" destination="5w4-Qi-dya" id="feY-gS-RcQ"/>
+                <outlet property="img07" destination="DuV-mk-ptc" id="Gbh-0g-d6k"/>
+                <outlet property="img10" destination="mXd-92-8Cr" id="8XZ-4d-AyG"/>
+                <outlet property="img11" destination="Yg4-25-Zcq" id="mXe-Wv-gYd"/>
+                <outlet property="img12" destination="1CH-ei-gNY" id="NgY-Pm-1li"/>
+                <outlet property="img13" destination="0Xv-wC-mzt" id="kSV-9F-n5C"/>
+                <outlet property="img14" destination="d2l-TA-C3Z" id="Dw8-9D-rUa"/>
+                <outlet property="img15" destination="1gR-b8-hwy" id="SOB-M5-pPe"/>
+                <outlet property="img16" destination="dF7-xE-kml" id="nUh-of-jF0"/>
+                <outlet property="img17" destination="9nT-kH-oV6" id="SqN-j0-vkm"/>
+                <outlet property="img20" destination="Pdq-u0-3B8" id="2PP-6y-XMG"/>
+                <outlet property="img21" destination="xDs-ca-Nqk" id="zD3-Pg-ygA"/>
+                <outlet property="img22" destination="jRq-Oc-nal" id="vsK-ex-qvz"/>
+                <outlet property="img23" destination="cF7-Ff-f54" id="4L9-co-7Im"/>
+                <outlet property="img24" destination="XzN-qq-8Uw" id="VxG-Er-fKa"/>
+                <outlet property="img25" destination="m8Y-YZ-aSB" id="HBG-Ts-OKG"/>
+                <outlet property="img26" destination="p3L-hA-lIW" id="o5t-ni-zJg"/>
+                <outlet property="img27" destination="epU-7N-erV" id="gkt-45-MPB"/>
+                <outlet property="img30" destination="MGs-h2-cJg" id="4WW-mz-TuB"/>
+                <outlet property="img31" destination="P7g-3T-QoR" id="MM9-Gb-hsn"/>
+                <outlet property="img32" destination="Ksv-jj-5h1" id="Evp-j5-nRv"/>
+                <outlet property="img33" destination="wcU-jg-Nw4" id="VXL-ha-HHt"/>
+                <outlet property="img34" destination="hyU-zF-0rz" id="vGF-bX-Eqh"/>
+                <outlet property="img35" destination="dm5-Sz-tlm" id="Iaw-s4-H0z"/>
+                <outlet property="img36" destination="nKB-Sk-Clq" id="QLq-Cr-uV9"/>
+                <outlet property="img37" destination="D3z-KN-KZk" id="uL8-4F-dLR"/>
+                <outlet property="img40" destination="hyT-Bb-8Xf" id="bls-aV-Wud"/>
+                <outlet property="img41" destination="OEp-zW-tcJ" id="N7b-OV-Ii6"/>
+                <outlet property="img42" destination="gjd-it-AGa" id="nO8-4f-f2i"/>
+                <outlet property="img43" destination="cEo-7Z-7Xp" id="biv-5m-Ut8"/>
+                <outlet property="img44" destination="ZOn-DC-KvT" id="Htp-Vy-TXU"/>
+                <outlet property="img45" destination="z9h-KY-nPf" id="5DD-7F-3D4"/>
+                <outlet property="img46" destination="LOD-p1-ec9" id="cwh-eS-dO8"/>
+                <outlet property="img47" destination="IWn-tv-97b" id="IyX-l1-g4y"/>
+                <outlet property="img50" destination="prY-jx-96O" id="x09-Ha-VY1"/>
+                <outlet property="img51" destination="Q5F-5A-iTs" id="ZrB-jd-n42"/>
+                <outlet property="img52" destination="n8J-8k-aYk" id="wxo-LL-9K8"/>
+                <outlet property="img53" destination="LsR-tb-IVp" id="K1C-yI-nnk"/>
+                <outlet property="img54" destination="yao-FA-tJz" id="gnY-eJ-SVz"/>
+                <outlet property="img55" destination="kLE-dC-AV9" id="q91-hh-18y"/>
+                <outlet property="img56" destination="sH5-Fh-SMu" id="gRz-qM-wlU"/>
+                <outlet property="img57" destination="NSX-Zh-6cd" id="Ywb-14-qPb"/>
+                <outlet property="img60" destination="1hf-i7-gqV" id="O0o-rG-Bca"/>
+                <outlet property="img61" destination="oIf-ov-u1J" id="46B-bt-SAL"/>
+                <outlet property="img62" destination="2NF-bc-62q" id="PZe-ME-XyV"/>
+                <outlet property="img63" destination="z1g-xP-qx6" id="gv1-tS-kiv"/>
+                <outlet property="img64" destination="7C3-nm-rlK" id="h0H-2P-vFZ"/>
+                <outlet property="img65" destination="yYU-4D-YRh" id="0Us-Wy-OkF"/>
+                <outlet property="img66" destination="tjm-OA-TKB" id="HXg-K8-UmU"/>
+                <outlet property="img67" destination="elD-vD-eWS" id="PMk-xN-G25"/>
+                <outlet property="img70" destination="e0n-57-y14" id="m6x-hK-aMS"/>
+                <outlet property="img71" destination="Y9v-PE-tbL" id="Ayy-WC-8NW"/>
+                <outlet property="img72" destination="st7-IJ-wPd" id="dqU-Hz-s0j"/>
+                <outlet property="img73" destination="N4e-oP-viG" id="oev-vm-QON"/>
+                <outlet property="img74" destination="O2F-rM-va2" id="HOL-jn-n09"/>
+                <outlet property="img75" destination="r7s-0Z-A8R" id="RSs-by-6E0"/>
+                <outlet property="img76" destination="4dg-3l-fwF" id="Ybz-La-TPs"/>
+                <outlet property="img77" destination="VtY-Qu-xm9" id="6Hk-A7-2fi"/>
+                <outlet property="pathLabel" destination="kV6-Pa-FlO" id="b5c-q1-0g0"/>
+                <outlet property="textView" destination="th8-jX-XAh" id="ej9-Fi-jtx"/>
+                <outlet property="view" destination="uNu-IT-yvB" id="hKk-8r-b0Z"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="uNu-IT-yvB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>

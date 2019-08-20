@@ -18,553 +18,817 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fmP-se-1AC">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="d2f-RT-CTZ">
                                 <rect key="frame" x="16" y="20" width="343" height="627"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G6L-DX-Nqr">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qP8-Gr-486">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="527"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="PoA-XZ-iQq">
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="9M4-z3-pMz">
                                                 <rect key="frame" x="8" y="8" width="327" height="300"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="hiZ-OZ-UDT">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="THP-zb-wb4">
                                                         <rect key="frame" x="0.0" y="0.0" width="35" height="300"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fD8-cy-wg2" userLabel="0_0">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1j-wJ-V2k" userLabel="0_0">
                                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare0Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rkn-09-3RY"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAy-OO-mgw" userLabel="1_0">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBH-dv-BsX" userLabel="1_0">
                                                                 <rect key="frame" x="0.0" y="38.5" width="35" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EEZ-ED-Aml"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGS-LI-NNq" userLabel="2_0">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zty-0Z-aKo" userLabel="2_0">
                                                                 <rect key="frame" x="0.0" y="76.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.69154792750000005" green="0.67539560259999998" blue="0.20535712210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gUA-51-Q4E"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZS7-3i-GMR" userLabel="3_0">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gM-3P-4oH" userLabel="3_0">
                                                                 <rect key="frame" x="0.0" y="115" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fdc-A9-ZyF"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7m7-GL-b19" userLabel="4_0">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIi-Fd-2pa" userLabel="4_0">
                                                                 <rect key="frame" x="0.0" y="153.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.69154792750000005" green="0.67539560259999998" blue="0.20535712210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0pj-Xe-6SW"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Riw-XE-0gs" userLabel="5_0">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLD-c9-ajy" userLabel="5_0">
                                                                 <rect key="frame" x="0.0" y="192" width="35" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="swd-nx-Mgy"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVa-ga-rsf" userLabel="6_0">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksv-qi-DKS" userLabel="6_0">
                                                                 <rect key="frame" x="0.0" y="230" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.69154792750000005" green="0.67539560259999998" blue="0.20535712210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O9E-Du-9RO"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nM6-Km-AgA" userLabel="7_0">
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLS-5l-42W" userLabel="7_0">
                                                                 <rect key="frame" x="0.0" y="268.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4dk-Pa-TLl"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstItem="ZS7-3i-GMR" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="0RS-gU-6Fv"/>
-                                                            <constraint firstItem="Riw-XE-0gs" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="0bp-Ue-gA6"/>
-                                                            <constraint firstItem="eAy-OO-mgw" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Dbg-gB-RFy"/>
-                                                            <constraint firstItem="nM6-Km-AgA" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="Gtw-3C-3sF"/>
-                                                            <constraint firstItem="pVa-ga-rsf" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="V6A-0K-p8p"/>
-                                                            <constraint firstItem="pVa-ga-rsf" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Y4X-bj-oqT"/>
-                                                            <constraint firstItem="eAy-OO-mgw" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="deR-Ua-5Rs"/>
-                                                            <constraint firstItem="Riw-XE-0gs" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="fJT-YU-WhC"/>
-                                                            <constraint firstItem="ZS7-3i-GMR" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="igl-5U-KM4"/>
-                                                            <constraint firstItem="XGS-LI-NNq" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="keX-PL-oix"/>
-                                                            <constraint firstItem="XGS-LI-NNq" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="ngl-wC-8Mf"/>
-                                                            <constraint firstItem="7m7-GL-b19" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="qtY-rJ-uEo"/>
-                                                            <constraint firstItem="7m7-GL-b19" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="rHf-x5-Fm6"/>
-                                                            <constraint firstItem="nM6-Km-AgA" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="z5D-1E-83Z"/>
+                                                            <constraint firstItem="VIi-Fd-2pa" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="0FF-lw-1j5"/>
+                                                            <constraint firstItem="VIi-Fd-2pa" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="4Uk-dW-jTT"/>
+                                                            <constraint firstItem="6gM-3P-4oH" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Kd5-B0-DxH"/>
+                                                            <constraint firstItem="zty-0Z-aKo" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="NjM-dc-rSY"/>
+                                                            <constraint firstItem="FBH-dv-BsX" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="WiL-95-toL"/>
+                                                            <constraint firstItem="ksv-qi-DKS" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="WpR-Kr-hPn"/>
+                                                            <constraint firstItem="FBH-dv-BsX" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="XKe-d5-2iH"/>
+                                                            <constraint firstItem="zty-0Z-aKo" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="XPL-mn-PLi"/>
+                                                            <constraint firstItem="oLS-5l-42W" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="Xez-kG-7Gj"/>
+                                                            <constraint firstItem="6gM-3P-4oH" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="Ymr-w8-hOB"/>
+                                                            <constraint firstItem="ksv-qi-DKS" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="YsI-WQ-Ake"/>
+                                                            <constraint firstItem="wLD-c9-ajy" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="eBL-gX-cPu"/>
+                                                            <constraint firstItem="wLD-c9-ajy" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="hea-sX-uMm"/>
+                                                            <constraint firstItem="oLS-5l-42W" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="xP6-Dy-mEY"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="cTP-Au-swd">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Dat-k4-StN">
                                                         <rect key="frame" x="42" y="0.0" width="34.5" height="300"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4f-Vv-SFc" userLabel="0_1">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUW-uR-lPp" userLabel="0_1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare0Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mba-QO-ux8"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSg-aX-3gT" userLabel="1_1">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eG-Rd-9bI" userLabel="1_1">
                                                                 <rect key="frame" x="0.0" y="38.5" width="34.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gKv-dO-dw2"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K99-eX-8CV" userLabel="2_1">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsB-RZ-83M" userLabel="2_1">
                                                                 <rect key="frame" x="0.0" y="76.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HvS-4H-QaE"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJd-dQ-DDA" userLabel="3_1">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYx-Hd-JRm" userLabel="3_1">
                                                                 <rect key="frame" x="0.0" y="115" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uTf-bV-oIv"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hD-kq-QTn" userLabel="4_1">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XED-hB-8Mg" userLabel="4_1">
                                                                 <rect key="frame" x="0.0" y="153.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X2j-bW-WEk"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmR-ji-BQa" userLabel="5_1">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rY1-mf-ogO" userLabel="5_1">
                                                                 <rect key="frame" x="0.0" y="192" width="34.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UIi-5V-OxA"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrK-TZ-eMa" userLabel="6_1">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XK-Cc-auu" userLabel="6_1">
                                                                 <rect key="frame" x="0.0" y="230" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ha8-Qi-YJr"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TD-Sq-UXC" userLabel="7_1">
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjZ-e7-zif" userLabel="7_1">
                                                                 <rect key="frame" x="0.0" y="268.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eTQ-lr-EKi"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ibo-hz-dC7">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="tPF-OC-cSH">
                                                         <rect key="frame" x="83.5" y="0.0" width="35" height="300"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRP-UI-Zv8" userLabel="0_2">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zY4-N2-mDr" userLabel="0_2">
                                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare0Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DT2-qz-ykS"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aua-jv-XlM" userLabel="1_2">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Cr-gk-HAl" userLabel="1_2">
                                                                 <rect key="frame" x="0.0" y="38.5" width="35" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1xq-wl-voC"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueO-q2-hM2" userLabel="2_2">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uP-Bb-PQh" userLabel="2_2">
                                                                 <rect key="frame" x="0.0" y="76.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ILa-EC-WT1"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSf-Fp-fdg" userLabel="3_2">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4L-Nr-Iv5" userLabel="3_2">
                                                                 <rect key="frame" x="0.0" y="115" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="99z-ha-f6t"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6k-1V-cGB" userLabel="4_2">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLw-u6-GhW" userLabel="4_2">
                                                                 <rect key="frame" x="0.0" y="153.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y9s-ki-Vxz"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skM-zT-aj3" userLabel="5_2">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K55-qM-7Qt" userLabel="5_2">
                                                                 <rect key="frame" x="0.0" y="192" width="35" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KFP-wh-j4T"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axH-83-xlb" userLabel="6_2">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGl-fn-SSK" userLabel="6_2">
                                                                 <rect key="frame" x="0.0" y="230" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vnW-wT-JNu"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1L-TU-O51" userLabel="7_2">
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ov4-yz-eHy" userLabel="7_2">
                                                                 <rect key="frame" x="0.0" y="268.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tSC-kA-qI8"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="JbM-7n-HQF">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="qob-1R-t7h">
                                                         <rect key="frame" x="125.5" y="0.0" width="34.5" height="300"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxg-pi-jzV" userLabel="0_3">
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cij-2V-jTU" userLabel="0_3">
                                                                 <rect key="frame" x="0.0" y="0.0" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare0Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2pt-np-Hef"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1J-bs-hvc" userLabel="1_3">
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg2-Td-qPR" userLabel="1_3">
                                                                 <rect key="frame" x="0.0" y="38.5" width="34.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1AF-3s-QYy"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4l-Qh-erM" userLabel="2_3">
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cr7-Dp-Efe" userLabel="2_3">
                                                                 <rect key="frame" x="0.0" y="76.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDk-sP-DNq"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGf-YQ-dxq" userLabel="3_3">
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIu-yf-E1v" userLabel="3_3">
                                                                 <rect key="frame" x="0.0" y="115" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RkA-E8-9Yx"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsW-ZU-OSL" userLabel="4_3">
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYs-2m-2xy" userLabel="4_3">
                                                                 <rect key="frame" x="0.0" y="153.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ddm-Zn-ge0"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uo-0O-xrQ" userLabel="5_3">
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7L-EV-YbL" userLabel="5_3">
                                                                 <rect key="frame" x="0.0" y="192" width="34.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WAk-ui-8Fb"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOu-eA-842" userLabel="6_3">
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBw-Uw-Esa" userLabel="6_3">
                                                                 <rect key="frame" x="0.0" y="230" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaI-Wy-hmD"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hru-TB-oHz" userLabel="7_3">
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpG-pL-pu0" userLabel="7_3">
                                                                 <rect key="frame" x="0.0" y="268.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hVU-Tt-BKm"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="PWA-hQ-zzR">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="wOs-Gg-b5b">
                                                         <rect key="frame" x="167" y="0.0" width="35" height="300"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzJ-Lz-Zfc" userLabel="0_4">
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Je9-Ek-rHb" userLabel="0_4">
                                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare0Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fsF-53-jle"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRc-hS-pIy" userLabel="1_4">
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gx0-lw-lvk" userLabel="1_4">
                                                                 <rect key="frame" x="0.0" y="38.5" width="35" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eYp-ax-ed8"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kC6-3x-gIK" userLabel="2_4">
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkJ-0b-F8g" userLabel="2_4">
                                                                 <rect key="frame" x="0.0" y="76.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j0Y-QQ-3G5"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seq-H0-KvK" userLabel="3_4">
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIZ-il-0Wa" userLabel="3_4">
                                                                 <rect key="frame" x="0.0" y="115" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1hY-dn-mtV"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lX-ty-uUM" userLabel="4_4">
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjh-d9-w1L" userLabel="4_4">
                                                                 <rect key="frame" x="0.0" y="153.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IZd-Gc-o8Z"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3j-YN-c7S" userLabel="5_4">
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALL-26-yiu" userLabel="5_4">
                                                                 <rect key="frame" x="0.0" y="192" width="35" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mkO-pU-684"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8b-Ox-Cyh" userLabel="6_4">
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n09-0w-2gE" userLabel="6_4">
                                                                 <rect key="frame" x="0.0" y="230" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vbb-Jd-HMs"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBJ-ct-Ha1" userLabel="7_4">
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJO-oG-dQC" userLabel="7_4">
                                                                 <rect key="frame" x="0.0" y="268.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y1C-Wg-OX2"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ZGi-Zb-xIn">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="hxR-Fw-xbx">
                                                         <rect key="frame" x="209" y="0.0" width="34.5" height="300"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOq-pQ-f3g" userLabel="0_5">
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ML-Ix-pZj" userLabel="0_5">
                                                                 <rect key="frame" x="0.0" y="0.0" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare0Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uxw-Pp-VBw"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJB-9R-8am" userLabel="1_5">
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15S-Jo-BHR" userLabel="1_5">
                                                                 <rect key="frame" x="0.0" y="38.5" width="34.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ySK-Sz-fOy"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPZ-fi-h01" userLabel="2_5">
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwc-Vb-gVF" userLabel="2_5">
                                                                 <rect key="frame" x="0.0" y="76.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aAf-As-fnF"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHO-Oe-dFt" userLabel="3_5">
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCX-dp-t8f" userLabel="3_5">
                                                                 <rect key="frame" x="0.0" y="115" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y66-LT-BAw"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PS2-7c-ByK" userLabel="4_5">
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeM-n7-0iK" userLabel="4_5">
                                                                 <rect key="frame" x="0.0" y="153.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9bV-g4-SbF"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXT-WG-CEz" userLabel="5_5">
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SxX-tc-sO9" userLabel="5_5">
                                                                 <rect key="frame" x="0.0" y="192" width="34.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8nE-Na-QGD"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIt-tM-EbG" userLabel="6_5">
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKH-ZX-fKQ" userLabel="6_5">
                                                                 <rect key="frame" x="0.0" y="230" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="26q-fY-1sR"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4Y-T3-nBZ" userLabel="7_5">
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28G-Ix-54n" userLabel="7_5">
                                                                 <rect key="frame" x="0.0" y="268.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n9M-fX-QyT"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="suP-TY-GNx">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="wUu-9L-v6O">
                                                         <rect key="frame" x="250.5" y="0.0" width="35" height="300"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEn-Tz-2y1" userLabel="0_6">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEe-Do-BNM" userLabel="0_6">
                                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare0Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m87-ut-eGl"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GS-y3-V3F" userLabel="1_6">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlW-Ym-fKc" userLabel="1_6">
                                                                 <rect key="frame" x="0.0" y="38.5" width="35" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RQH-cf-Y3M"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPi-Hb-Y58" userLabel="2_6">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ab5-Z1-r8p" userLabel="2_6">
                                                                 <rect key="frame" x="0.0" y="76.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TQN-fF-mTg"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DON-gj-r3S" userLabel="3_6">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5D-xC-U4W" userLabel="3_6">
                                                                 <rect key="frame" x="0.0" y="115" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s91-aJ-mnb"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtD-vK-Ptj" userLabel="4_6">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrh-qv-seC" userLabel="4_6">
                                                                 <rect key="frame" x="0.0" y="153.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kcF-3E-y8s"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEY-NA-fae" userLabel="5_6">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f89-i3-Y5c" userLabel="5_6">
                                                                 <rect key="frame" x="0.0" y="192" width="35" height="31"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2oc-4V-OaW"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqL-Ot-A7f" userLabel="6_6">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMq-Ke-6Wv" userLabel="6_6">
                                                                 <rect key="frame" x="0.0" y="230" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Fd-2g-lSp"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqb-3o-umY" userLabel="7_6">
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Rz-q7-xry" userLabel="7_6">
                                                                 <rect key="frame" x="0.0" y="268.5" width="35" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pry-uQ-tAe"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="p0b-9l-Q8p">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="176-g8-mQY">
                                                         <rect key="frame" x="292.5" y="0.0" width="34.5" height="300"/>
                                                         <subviews>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0q-CV-k3V" userLabel="0_7">
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSs-PX-ORv" userLabel="0_7">
                                                                 <rect key="frame" x="0.0" y="0.0" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare0Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXl-hV-uBo"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nxk-Kj-o68" userLabel="1_7">
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVz-wl-efA" userLabel="1_7">
                                                                 <rect key="frame" x="0.0" y="38.5" width="34.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h6D-WX-6kW"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5E-Qh-hXm" userLabel="2_7">
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gn-Gq-OMQ" userLabel="2_7">
                                                                 <rect key="frame" x="0.0" y="76.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nTi-1N-6uD"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LzA-tJ-1LZ" userLabel="3_7">
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dk6-DV-Zj2" userLabel="3_7">
                                                                 <rect key="frame" x="0.0" y="115" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qEs-RE-cgA"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IS9-hQ-usa" userLabel="4_7">
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbn-9m-Knh" userLabel="4_7">
                                                                 <rect key="frame" x="0.0" y="153.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HMA-SI-ve5"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4o-0b-Kls" userLabel="5_7">
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIi-gl-BfY" userLabel="5_7">
                                                                 <rect key="frame" x="0.0" y="192" width="34.5" height="31"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AxE-R1-ZLv"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4S3-f5-aJD" userLabel="6_7">
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOe-Hy-cxg" userLabel="6_7">
                                                                 <rect key="frame" x="0.0" y="230" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P0C-I6-inT"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqM-6N-ZCJ" userLabel="7_7">
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUM-MJ-QlT" userLabel="7_7">
                                                                 <rect key="frame" x="0.0" y="268.5" width="34.5" height="31.5"/>
                                                                 <color key="backgroundColor" red="0.61955571170000001" green="0.60395067930000002" blue="0.18429973720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <connections>
+                                                                    <action selector="chessSquare7Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IcM-3R-Ji2"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="UPi-Hb-Y58" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="0RX-m2-PAT"/>
-                                                    <constraint firstItem="qrK-TZ-eMa" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="0ae-DX-VeB"/>
-                                                    <constraint firstItem="4S3-f5-aJD" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="0ct-u7-me3"/>
-                                                    <constraint firstItem="U0q-CV-k3V" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="0d6-Gl-6mp"/>
-                                                    <constraint firstItem="9uo-0O-xrQ" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="0oK-c9-NkP"/>
-                                                    <constraint firstItem="Rxg-pi-jzV" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="1ga-fC-m5v"/>
-                                                    <constraint firstItem="R4o-0b-Kls" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="4Wh-Hf-e4a"/>
-                                                    <constraint firstItem="nmR-ji-BQa" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="4Xg-MG-NEg"/>
-                                                    <constraint firstItem="kOq-pQ-f3g" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="4gk-bO-68s"/>
-                                                    <constraint firstItem="LzA-tJ-1LZ" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="4pg-1N-sna"/>
-                                                    <constraint firstItem="vsW-ZU-OSL" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="6DE-cF-692"/>
-                                                    <constraint firstItem="skM-zT-aj3" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="6wj-TP-iCC"/>
-                                                    <constraint firstAttribute="width" secondItem="PoA-XZ-iQq" secondAttribute="height" multiplier="289:265" id="8vr-kZ-bdo"/>
-                                                    <constraint firstItem="K99-eX-8CV" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="8yt-xn-8Rv"/>
-                                                    <constraint firstItem="HRP-UI-Zv8" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="AX8-AJ-itM"/>
-                                                    <constraint firstItem="pEY-NA-fae" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Abq-Zl-WDH"/>
-                                                    <constraint firstItem="LqM-6N-ZCJ" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="AoV-cO-JNR"/>
-                                                    <constraint firstItem="0lX-ty-uUM" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="B63-Jc-EfS"/>
-                                                    <constraint firstItem="tqL-Ot-A7f" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="Blb-j8-drH"/>
-                                                    <constraint firstItem="f1L-TU-O51" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="C1s-Ck-7iG"/>
-                                                    <constraint firstItem="kC6-3x-gIK" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="CQp-lC-8XS"/>
-                                                    <constraint firstItem="j4f-Vv-SFc" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="DQB-YS-zLN"/>
-                                                    <constraint firstItem="h6k-1V-cGB" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="DT7-bY-WdV"/>
-                                                    <constraint firstItem="h6k-1V-cGB" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="E1d-xz-kBc"/>
-                                                    <constraint firstItem="J4Y-T3-nBZ" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="Hhd-HU-VUj"/>
-                                                    <constraint firstItem="B4l-Qh-erM" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="IIb-gX-6fl"/>
-                                                    <constraint firstItem="jSf-Fp-fdg" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="Iaj-im-3BZ"/>
-                                                    <constraint firstItem="PS2-7c-ByK" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="JZn-eU-rpx"/>
-                                                    <constraint firstItem="pBJ-ct-Ha1" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="KUZ-MI-pUL"/>
-                                                    <constraint firstItem="axH-83-xlb" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="NbP-sb-WiM"/>
-                                                    <constraint firstItem="Aua-jv-XlM" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="PqD-tO-p3R"/>
-                                                    <constraint firstItem="TOu-eA-842" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Prf-ED-AUM"/>
-                                                    <constraint firstItem="7TD-Sq-UXC" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="QVG-2h-4vR"/>
-                                                    <constraint firstItem="WEn-Tz-2y1" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="QXj-qa-9tv"/>
-                                                    <constraint firstItem="K99-eX-8CV" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="Qjs-D8-JWC"/>
-                                                    <constraint firstItem="GIt-tM-EbG" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="QmE-b2-UJN"/>
-                                                    <constraint firstItem="ueO-q2-hM2" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="RTW-Ij-ctF"/>
-                                                    <constraint firstItem="pBJ-ct-Ha1" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="RzB-N1-umd"/>
-                                                    <constraint firstItem="9uo-0O-xrQ" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="S0Q-rJ-oz5"/>
-                                                    <constraint firstItem="fJd-dQ-DDA" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="SZ4-1R-yrh"/>
-                                                    <constraint firstItem="DON-gj-r3S" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Sio-ZI-3v4"/>
-                                                    <constraint firstItem="MJB-9R-8am" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="Sr7-5h-MX1"/>
-                                                    <constraint firstItem="iRc-hS-pIy" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="T7E-31-ydI"/>
-                                                    <constraint firstItem="W8b-Ox-Cyh" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="ToQ-Th-dzR"/>
-                                                    <constraint firstItem="LXT-WG-CEz" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Tr1-D8-2iP"/>
-                                                    <constraint firstItem="LPZ-fi-h01" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="U9Y-bx-nWd"/>
-                                                    <constraint firstItem="WEn-Tz-2y1" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="VLK-Ha-1uF"/>
-                                                    <constraint firstItem="GIt-tM-EbG" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Vqi-zL-WRT"/>
-                                                    <constraint firstItem="pEY-NA-fae" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="VtA-I3-usW"/>
-                                                    <constraint firstItem="f1J-bs-hvc" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Vvg-po-3mk"/>
-                                                    <constraint firstItem="vsW-ZU-OSL" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Y2a-8Z-SfN"/>
-                                                    <constraint firstItem="tqL-Ot-A7f" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Y3O-rc-rbZ"/>
-                                                    <constraint firstItem="lSg-aX-3gT" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Y6Z-WM-vrj"/>
-                                                    <constraint firstItem="IS9-hQ-usa" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Y8O-R0-TVu"/>
-                                                    <constraint firstItem="7GS-y3-V3F" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="YZz-4J-TTn"/>
-                                                    <constraint firstItem="axH-83-xlb" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="Yak-sh-lIT"/>
-                                                    <constraint firstItem="n3j-YN-c7S" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Yb0-Z1-Yp6"/>
-                                                    <constraint firstItem="0lX-ty-uUM" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="YcM-iD-L0i"/>
-                                                    <constraint firstItem="skM-zT-aj3" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="YdK-zI-1TW"/>
-                                                    <constraint firstItem="jSf-Fp-fdg" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Yl4-R8-adG"/>
-                                                    <constraint firstItem="Nxk-Kj-o68" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="YtW-7x-7JV"/>
-                                                    <constraint firstItem="qrK-TZ-eMa" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="Zgm-KD-AIE"/>
-                                                    <constraint firstItem="iRc-hS-pIy" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="ZoR-3G-ZvE"/>
-                                                    <constraint firstItem="U0q-CV-k3V" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="aAr-M1-yKL"/>
-                                                    <constraint firstItem="7TD-Sq-UXC" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="bE1-gA-srs"/>
-                                                    <constraint firstItem="OtD-vK-Ptj" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="diK-zT-jsb"/>
-                                                    <constraint firstItem="kOq-pQ-f3g" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="dlb-Jp-T53"/>
-                                                    <constraint firstItem="hru-TB-oHz" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="dp9-gc-tRT"/>
-                                                    <constraint firstItem="W8b-Ox-Cyh" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="ey1-XF-fNz"/>
-                                                    <constraint firstItem="ueO-q2-hM2" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="fqB-NN-VxI"/>
-                                                    <constraint firstItem="LqM-6N-ZCJ" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="fun-cg-y3r"/>
-                                                    <constraint firstItem="B4l-Qh-erM" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="g5F-R4-RsK"/>
-                                                    <constraint firstItem="LXT-WG-CEz" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="hcH-kl-M46"/>
-                                                    <constraint firstItem="gzJ-Lz-Zfc" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="icH-w8-wvO"/>
-                                                    <constraint firstItem="b5E-Qh-hXm" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="iux-Jh-w1q"/>
-                                                    <constraint firstItem="gzJ-Lz-Zfc" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="jYK-Ex-fp8"/>
-                                                    <constraint firstItem="nmR-ji-BQa" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="jxy-ZV-PyQ"/>
-                                                    <constraint firstItem="7GS-y3-V3F" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="ki9-2c-beg"/>
-                                                    <constraint firstItem="seq-H0-KvK" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="kov-0s-ZVU"/>
-                                                    <constraint firstItem="j4f-Vv-SFc" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="lfu-xu-osi"/>
-                                                    <constraint firstItem="Gqb-3o-umY" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="lm3-jF-4iJ"/>
-                                                    <constraint firstItem="OtD-vK-Ptj" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="mAX-tH-eWk"/>
-                                                    <constraint firstItem="fHO-Oe-dFt" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="mUe-KY-b8w"/>
-                                                    <constraint firstItem="DON-gj-r3S" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="mfo-iE-kEV"/>
-                                                    <constraint firstItem="IS9-hQ-usa" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="mgY-lY-F9F"/>
-                                                    <constraint firstItem="HRP-UI-Zv8" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="nFa-tG-MFU"/>
-                                                    <constraint firstItem="f1L-TU-O51" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="obx-ZF-rsP"/>
-                                                    <constraint firstItem="UPi-Hb-Y58" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="om1-gL-Y71"/>
-                                                    <constraint firstItem="seq-H0-KvK" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="oqW-Xb-Pcr"/>
-                                                    <constraint firstItem="Nxk-Kj-o68" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="ozq-cU-zQ3"/>
-                                                    <constraint firstItem="hru-TB-oHz" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="pwL-Tu-QFe"/>
-                                                    <constraint firstItem="kC6-3x-gIK" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="r09-G5-X3d"/>
-                                                    <constraint firstItem="TOu-eA-842" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="rAz-NY-E3s"/>
-                                                    <constraint firstItem="f1J-bs-hvc" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="rYF-ei-w2A"/>
-                                                    <constraint firstItem="b5E-Qh-hXm" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="sFh-Ty-JrV"/>
-                                                    <constraint firstItem="Aua-jv-XlM" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="sRq-EC-yes"/>
-                                                    <constraint firstItem="n3j-YN-c7S" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="tfn-Zn-kLr"/>
-                                                    <constraint firstItem="fJd-dQ-DDA" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="thr-dx-x0R"/>
-                                                    <constraint firstItem="hGf-YQ-dxq" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="tqn-Sv-OjX"/>
-                                                    <constraint firstItem="lSg-aX-3gT" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="uEM-4r-EJ5"/>
-                                                    <constraint firstItem="1hD-kq-QTn" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="uoy-D2-l44"/>
-                                                    <constraint firstItem="fHO-Oe-dFt" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="v9u-ka-NFv"/>
-                                                    <constraint firstItem="hGf-YQ-dxq" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="vR8-iO-GhM"/>
-                                                    <constraint firstItem="LzA-tJ-1LZ" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="wSB-Hr-jN1"/>
-                                                    <constraint firstItem="PS2-7c-ByK" firstAttribute="height" secondItem="fD8-cy-wg2" secondAttribute="height" id="wwR-L6-Ixa"/>
-                                                    <constraint firstItem="LPZ-fi-h01" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="xnp-9L-zz3"/>
-                                                    <constraint firstItem="Gqb-3o-umY" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="xqz-Gd-ebw"/>
-                                                    <constraint firstItem="J4Y-T3-nBZ" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="xya-yc-vvc"/>
-                                                    <constraint firstItem="Rxg-pi-jzV" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="y4h-Uk-akx"/>
-                                                    <constraint firstItem="4S3-f5-aJD" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="yoW-SI-IAT"/>
-                                                    <constraint firstItem="MJB-9R-8am" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="z1h-Ff-ACE"/>
-                                                    <constraint firstItem="R4o-0b-Kls" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="z4b-IF-B2g"/>
-                                                    <constraint firstItem="1hD-kq-QTn" firstAttribute="width" secondItem="fD8-cy-wg2" secondAttribute="width" id="zZc-9P-HER"/>
+                                                    <constraint firstAttribute="width" secondItem="9M4-z3-pMz" secondAttribute="height" multiplier="289:265" id="042-Zg-6xh"/>
+                                                    <constraint firstItem="Cij-2V-jTU" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="0ja-RB-ZFh"/>
+                                                    <constraint firstItem="Jwc-Vb-gVF" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="1MX-3b-GFe"/>
+                                                    <constraint firstItem="GeM-n7-0iK" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="1Ur-Wp-58j"/>
+                                                    <constraint firstItem="7XK-Cc-auu" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="2Kr-VC-6cA"/>
+                                                    <constraint firstItem="f89-i3-Y5c" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="2SC-Lf-KMx"/>
+                                                    <constraint firstItem="gSs-PX-ORv" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="32g-Rc-gA2"/>
+                                                    <constraint firstItem="aLw-u6-GhW" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="3He-L5-Dzx"/>
+                                                    <constraint firstItem="0uP-Bb-PQh" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="3gx-M2-7Gc"/>
+                                                    <constraint firstItem="5eG-Rd-9bI" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="4C5-hC-Sn6"/>
+                                                    <constraint firstItem="Je9-Ek-rHb" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="4d6-J2-bwy"/>
+                                                    <constraint firstItem="B4L-Nr-Iv5" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="4tY-Ci-s7R"/>
+                                                    <constraint firstItem="lBw-Uw-Esa" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="6At-vt-ZkP"/>
+                                                    <constraint firstItem="Ov4-yz-eHy" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="6bK-B6-AQM"/>
+                                                    <constraint firstItem="Cr7-Dp-Efe" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="7eb-Ts-swf"/>
+                                                    <constraint firstItem="oEe-Do-BNM" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="85F-Pi-ARG"/>
+                                                    <constraint firstItem="cIZ-il-0Wa" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="APl-I3-Ojq"/>
+                                                    <constraint firstItem="B4L-Nr-Iv5" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Ac4-zD-6rv"/>
+                                                    <constraint firstItem="15S-Jo-BHR" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="AiC-dC-D4Y"/>
+                                                    <constraint firstItem="Tjh-d9-w1L" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Am6-Om-nnJ"/>
+                                                    <constraint firstItem="u7L-EV-YbL" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="As5-gp-tgf"/>
+                                                    <constraint firstItem="dOe-Hy-cxg" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="AsC-3M-rHA"/>
+                                                    <constraint firstItem="mYs-2m-2xy" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="BES-I6-pRj"/>
+                                                    <constraint firstItem="GeM-n7-0iK" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Bfn-E3-oEB"/>
+                                                    <constraint firstItem="28G-Ix-54n" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="Bqj-FX-nhY"/>
+                                                    <constraint firstItem="CYx-Hd-JRm" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="CTK-4C-68W"/>
+                                                    <constraint firstItem="Ov4-yz-eHy" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Chq-v8-a4k"/>
+                                                    <constraint firstItem="rY1-mf-ogO" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="DqS-uo-ifz"/>
+                                                    <constraint firstItem="m5D-xC-U4W" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="EZf-tQ-MIc"/>
+                                                    <constraint firstItem="Gx0-lw-lvk" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="G3a-Pv-aL7"/>
+                                                    <constraint firstItem="aLw-u6-GhW" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="GPz-tq-xqI"/>
+                                                    <constraint firstItem="XED-hB-8Mg" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="H7D-8m-NVQ"/>
+                                                    <constraint firstItem="6Rz-q7-xry" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="JHN-Jr-kO4"/>
+                                                    <constraint firstItem="OlW-Ym-fKc" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="KNz-hY-Cw9"/>
+                                                    <constraint firstItem="Cij-2V-jTU" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="LGg-mu-2u3"/>
+                                                    <constraint firstItem="bVz-wl-efA" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="LcP-WQ-5FC"/>
+                                                    <constraint firstItem="dOe-Hy-cxg" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="MNN-Gl-0qa"/>
+                                                    <constraint firstItem="bVz-wl-efA" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="NFb-Pg-7UL"/>
+                                                    <constraint firstItem="lrh-qv-seC" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="Oxs-nd-peV"/>
+                                                    <constraint firstItem="cIZ-il-0Wa" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="P5V-PW-l0K"/>
+                                                    <constraint firstItem="Gx0-lw-lvk" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Pce-Tf-4Mo"/>
+                                                    <constraint firstItem="GUM-MJ-QlT" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="PsN-bA-eJT"/>
+                                                    <constraint firstItem="6ML-Ix-pZj" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="Ql3-4M-Mds"/>
+                                                    <constraint firstItem="qKH-ZX-fKQ" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="SJU-Ol-ccB"/>
+                                                    <constraint firstItem="0uP-Bb-PQh" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="SJa-IW-AGk"/>
+                                                    <constraint firstItem="bg2-Td-qPR" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="SXd-ZE-h7V"/>
+                                                    <constraint firstItem="n09-0w-2gE" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="TuN-lc-HZu"/>
+                                                    <constraint firstItem="15S-Jo-BHR" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="UNk-dz-5XL"/>
+                                                    <constraint firstItem="wbn-9m-Knh" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="UjQ-be-nDC"/>
+                                                    <constraint firstItem="zY4-N2-mDr" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="UuH-i4-wey"/>
+                                                    <constraint firstItem="K55-qM-7Qt" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="UwZ-Ae-hoT"/>
+                                                    <constraint firstItem="ALL-26-yiu" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="V11-cW-gCK"/>
+                                                    <constraint firstItem="dk6-DV-Zj2" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="V1W-2x-PP8"/>
+                                                    <constraint firstItem="SxX-tc-sO9" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="VEv-ea-JDQ"/>
+                                                    <constraint firstItem="SxX-tc-sO9" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="Vak-zy-p06"/>
+                                                    <constraint firstItem="OlW-Ym-fKc" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Vkc-XD-MDi"/>
+                                                    <constraint firstItem="m5D-xC-U4W" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="VoJ-E8-hSr"/>
+                                                    <constraint firstItem="Ab5-Z1-r8p" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="WOE-ry-Pad"/>
+                                                    <constraint firstItem="rY1-mf-ogO" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="XFe-jQ-6ch"/>
+                                                    <constraint firstItem="XjZ-e7-zif" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Y5X-cS-Nhm"/>
+                                                    <constraint firstItem="EsB-RZ-83M" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="Yg2-VX-zNl"/>
+                                                    <constraint firstItem="u7L-EV-YbL" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="YgR-EK-FKi"/>
+                                                    <constraint firstItem="OGl-fn-SSK" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="YoY-4u-oJw"/>
+                                                    <constraint firstItem="dk6-DV-Zj2" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="Yoa-5C-txV"/>
+                                                    <constraint firstItem="YpG-pL-pu0" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="aBI-hp-Gf1"/>
+                                                    <constraint firstItem="GUM-MJ-QlT" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="aem-RN-DUl"/>
+                                                    <constraint firstItem="RCX-dp-t8f" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="bSd-gP-pv3"/>
+                                                    <constraint firstItem="bUW-uR-lPp" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="bkJ-Oq-n3N"/>
+                                                    <constraint firstItem="OGl-fn-SSK" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="cWM-ed-7rO"/>
+                                                    <constraint firstItem="mYs-2m-2xy" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="cdP-Jz-j8E"/>
+                                                    <constraint firstItem="n09-0w-2gE" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="cfh-xW-lx3"/>
+                                                    <constraint firstItem="bUW-uR-lPp" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="ci3-lP-apP"/>
+                                                    <constraint firstItem="XjZ-e7-zif" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="djy-43-ffm"/>
+                                                    <constraint firstItem="hkJ-0b-F8g" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="dkd-E0-K5s"/>
+                                                    <constraint firstItem="9Cr-gk-HAl" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="e49-UK-2BR"/>
+                                                    <constraint firstItem="Cr7-Dp-Efe" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="eE4-mf-ZOP"/>
+                                                    <constraint firstItem="wbn-9m-Knh" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="eJ2-lC-sW7"/>
+                                                    <constraint firstItem="2Gn-Gq-OMQ" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="fcT-4V-7R1"/>
+                                                    <constraint firstItem="RCX-dp-t8f" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="fkv-q4-ZCH"/>
+                                                    <constraint firstItem="gSs-PX-ORv" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="flw-ab-fGR"/>
+                                                    <constraint firstItem="bg2-Td-qPR" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="g4o-az-ckU"/>
+                                                    <constraint firstItem="mMq-Ke-6Wv" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="ivh-By-6fc"/>
+                                                    <constraint firstItem="Jwc-Vb-gVF" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="kYY-9g-FYq"/>
+                                                    <constraint firstItem="9Cr-gk-HAl" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="km4-2m-oYM"/>
+                                                    <constraint firstItem="28G-Ix-54n" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="lbb-R0-j8x"/>
+                                                    <constraint firstItem="6Rz-q7-xry" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="mqn-cQ-S9J"/>
+                                                    <constraint firstItem="VJO-oG-dQC" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="nAV-q5-ztD"/>
+                                                    <constraint firstItem="YpG-pL-pu0" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="oOb-mg-TW7"/>
+                                                    <constraint firstItem="CYx-Hd-JRm" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="ozM-kA-znv"/>
+                                                    <constraint firstItem="Je9-Ek-rHb" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="p2w-vh-t19"/>
+                                                    <constraint firstItem="qIu-yf-E1v" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="pKU-Vk-qCf"/>
+                                                    <constraint firstItem="qKH-ZX-fKQ" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="pcY-PK-gGQ"/>
+                                                    <constraint firstItem="lBw-Uw-Esa" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="qha-6g-Bbw"/>
+                                                    <constraint firstItem="Tjh-d9-w1L" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="qvO-J0-bHz"/>
+                                                    <constraint firstItem="K55-qM-7Qt" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="sRc-IW-mjr"/>
+                                                    <constraint firstItem="Ab5-Z1-r8p" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="sab-3o-efp"/>
+                                                    <constraint firstItem="XED-hB-8Mg" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="t0g-o9-xHd"/>
+                                                    <constraint firstItem="EsB-RZ-83M" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="t9N-aX-8Lh"/>
+                                                    <constraint firstItem="hkJ-0b-F8g" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="tLX-VJ-L9J"/>
+                                                    <constraint firstItem="7XK-Cc-auu" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="uWV-Zc-pcm"/>
+                                                    <constraint firstItem="dIi-gl-BfY" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="vQP-Sb-l0a"/>
+                                                    <constraint firstItem="ALL-26-yiu" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="voE-uG-aP5"/>
+                                                    <constraint firstItem="qIu-yf-E1v" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="vrQ-Wq-Sjf"/>
+                                                    <constraint firstItem="lrh-qv-seC" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="wVs-jU-JTk"/>
+                                                    <constraint firstItem="5eG-Rd-9bI" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="x9L-h5-7Kz"/>
+                                                    <constraint firstItem="dIi-gl-BfY" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="xIs-dK-EJ2"/>
+                                                    <constraint firstItem="VJO-oG-dQC" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="xcd-KQ-CvY"/>
+                                                    <constraint firstItem="f89-i3-Y5c" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="xhj-Rh-6cD"/>
+                                                    <constraint firstItem="zY4-N2-mDr" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="y4u-eI-mmn"/>
+                                                    <constraint firstItem="6ML-Ix-pZj" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="yWI-tJ-gHZ"/>
+                                                    <constraint firstItem="2Gn-Gq-OMQ" firstAttribute="height" secondItem="J1j-wJ-V2k" secondAttribute="height" id="yyg-4N-1I7"/>
+                                                    <constraint firstItem="oEe-Do-BNM" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="yz1-CN-J1m"/>
+                                                    <constraint firstItem="mMq-Ke-6Wv" firstAttribute="width" secondItem="J1j-wJ-V2k" secondAttribute="width" id="z8S-Aj-cXo"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="PoA-XZ-iQq" secondAttribute="trailing" constant="8" id="fR3-1t-409"/>
-                                            <constraint firstItem="PoA-XZ-iQq" firstAttribute="leading" secondItem="G6L-DX-Nqr" secondAttribute="leading" constant="8" id="qlE-WT-pKt"/>
-                                            <constraint firstItem="PoA-XZ-iQq" firstAttribute="top" secondItem="G6L-DX-Nqr" secondAttribute="top" constant="8" id="toF-fW-Cyv"/>
+                                            <constraint firstItem="9M4-z3-pMz" firstAttribute="top" secondItem="qP8-Gr-486" secondAttribute="top" constant="8" id="P6x-9I-RSB"/>
+                                            <constraint firstAttribute="trailing" secondItem="9M4-z3-pMz" secondAttribute="trailing" constant="8" id="Py2-bw-dhB"/>
+                                            <constraint firstItem="9M4-z3-pMz" firstAttribute="leading" secondItem="qP8-Gr-486" secondAttribute="leading" constant="8" id="Vl1-p1-Gdx"/>
                                         </constraints>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3U-b2-yMT" userLabel="calculateButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tg-Jw-y5q" userLabel="calculateButton">
                                         <rect key="frame" x="0.0" y="527" width="343" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="LNe-0f-Mb8"/>
+                                            <constraint firstAttribute="height" constant="50" id="tg1-C4-UEK"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                         <state key="normal" title="Calculate"/>
+                                        <connections>
+                                            <action selector="calculateButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Wy-UQ-gzj"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUT-fA-UE6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mg-ky-Amq">
                                         <rect key="frame" x="0.0" y="577" width="343" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="CiO-fQ-5G9"/>
+                                            <constraint firstAttribute="height" constant="50" id="qDo-Uc-C7r"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                         <state key="normal" title="Reset"/>
+                                        <connections>
+                                            <action selector="buttonresetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f7a-2w-tMX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="bUT-fA-UE6" firstAttribute="leading" secondItem="fmP-se-1AC" secondAttribute="leading" id="3Jv-EJ-BEI"/>
-                                    <constraint firstItem="bUT-fA-UE6" firstAttribute="top" secondItem="Q3U-b2-yMT" secondAttribute="bottom" id="KP4-16-MxC"/>
-                                    <constraint firstItem="Q3U-b2-yMT" firstAttribute="top" secondItem="G6L-DX-Nqr" secondAttribute="bottom" id="TGf-Rd-lW1"/>
-                                    <constraint firstAttribute="trailing" secondItem="Q3U-b2-yMT" secondAttribute="trailing" id="p7h-og-ayp"/>
-                                    <constraint firstItem="Q3U-b2-yMT" firstAttribute="leading" secondItem="fmP-se-1AC" secondAttribute="leading" id="yMp-br-qvJ"/>
-                                    <constraint firstAttribute="trailing" secondItem="bUT-fA-UE6" secondAttribute="trailing" id="zYu-BC-0Pp"/>
+                                    <constraint firstItem="1tg-Jw-y5q" firstAttribute="top" secondItem="qP8-Gr-486" secondAttribute="bottom" id="AJc-IN-XAB"/>
+                                    <constraint firstAttribute="trailing" secondItem="1tg-Jw-y5q" secondAttribute="trailing" id="Pfh-03-hYo"/>
+                                    <constraint firstAttribute="trailing" secondItem="9mg-ky-Amq" secondAttribute="trailing" id="bc6-9S-N1U"/>
+                                    <constraint firstItem="9mg-ky-Amq" firstAttribute="top" secondItem="1tg-Jw-y5q" secondAttribute="bottom" id="k08-3w-2A8"/>
+                                    <constraint firstItem="9mg-ky-Amq" firstAttribute="leading" secondItem="d2f-RT-CTZ" secondAttribute="leading" id="ttL-zP-SHh"/>
+                                    <constraint firstItem="1tg-Jw-y5q" firstAttribute="leading" secondItem="d2f-RT-CTZ" secondAttribute="leading" id="wt8-zW-w7i"/>
                                 </constraints>
-                                <viewLayoutGuide key="safeArea" id="9az-Je-Oa6"/>
+                                <viewLayoutGuide key="safeArea" id="nQI-uE-txH"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fmP-se-1AC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5S2-dq-Ge4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fmP-se-1AC" secondAttribute="trailing" constant="16" id="H2M-G0-l2b"/>
-                            <constraint firstItem="fmP-se-1AC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JoF-vU-FqS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fmP-se-1AC" secondAttribute="bottom" constant="20" id="toD-KR-d62"/>
+                            <constraint firstItem="d2f-RT-CTZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4ug-gw-MEk"/>
+                            <constraint firstItem="d2f-RT-CTZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Rb4-dk-Bce"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d2f-RT-CTZ" secondAttribute="trailing" constant="16" id="TM7-KW-ZOb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d2f-RT-CTZ" secondAttribute="bottom" constant="20" id="tw7-ky-gDm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outletCollection property="chessSquare0" destination="J1j-wJ-V2k" collectionClass="NSMutableArray" id="qYp-h9-uhP"/>
+                        <outletCollection property="chessSquare0" destination="bUW-uR-lPp" collectionClass="NSMutableArray" id="Pop-uM-PXo"/>
+                        <outletCollection property="chessSquare0" destination="zY4-N2-mDr" collectionClass="NSMutableArray" id="y7m-f2-kOT"/>
+                        <outletCollection property="chessSquare0" destination="Cij-2V-jTU" collectionClass="NSMutableArray" id="opM-9s-52i"/>
+                        <outletCollection property="chessSquare0" destination="Je9-Ek-rHb" collectionClass="NSMutableArray" id="5wN-xZ-WdB"/>
+                        <outletCollection property="chessSquare0" destination="6ML-Ix-pZj" collectionClass="NSMutableArray" id="4s8-bI-VQ3"/>
+                        <outletCollection property="chessSquare0" destination="oEe-Do-BNM" collectionClass="NSMutableArray" id="M5h-nf-wag"/>
+                        <outletCollection property="chessSquare0" destination="gSs-PX-ORv" collectionClass="NSMutableArray" id="6Xo-Pq-S2j"/>
+                        <outletCollection property="chessSquare1" destination="FBH-dv-BsX" collectionClass="NSMutableArray" id="ABN-By-aVe"/>
+                        <outletCollection property="chessSquare1" destination="5eG-Rd-9bI" collectionClass="NSMutableArray" id="cPQ-RF-svl"/>
+                        <outletCollection property="chessSquare1" destination="9Cr-gk-HAl" collectionClass="NSMutableArray" id="4T3-Xw-Ct6"/>
+                        <outletCollection property="chessSquare1" destination="bg2-Td-qPR" collectionClass="NSMutableArray" id="ImQ-5h-hFi"/>
+                        <outletCollection property="chessSquare1" destination="Gx0-lw-lvk" collectionClass="NSMutableArray" id="nbn-rF-I2I"/>
+                        <outletCollection property="chessSquare1" destination="15S-Jo-BHR" collectionClass="NSMutableArray" id="cau-Te-WNb"/>
+                        <outletCollection property="chessSquare1" destination="OlW-Ym-fKc" collectionClass="NSMutableArray" id="DDO-iW-fPd"/>
+                        <outletCollection property="chessSquare1" destination="bVz-wl-efA" collectionClass="NSMutableArray" id="UpX-JS-cWO"/>
+                        <outletCollection property="chessSquare2" destination="zty-0Z-aKo" collectionClass="NSMutableArray" id="2Ji-n4-4Cu"/>
+                        <outletCollection property="chessSquare2" destination="EsB-RZ-83M" collectionClass="NSMutableArray" id="QZz-Jq-3hq"/>
+                        <outletCollection property="chessSquare2" destination="0uP-Bb-PQh" collectionClass="NSMutableArray" id="LXV-Gi-LBj"/>
+                        <outletCollection property="chessSquare2" destination="Cr7-Dp-Efe" collectionClass="NSMutableArray" id="4xo-wY-AXp"/>
+                        <outletCollection property="chessSquare2" destination="hkJ-0b-F8g" collectionClass="NSMutableArray" id="8zU-zI-H0b"/>
+                        <outletCollection property="chessSquare2" destination="Jwc-Vb-gVF" collectionClass="NSMutableArray" id="tLp-Sj-8p8"/>
+                        <outletCollection property="chessSquare2" destination="Ab5-Z1-r8p" collectionClass="NSMutableArray" id="0BC-OT-dPU"/>
+                        <outletCollection property="chessSquare2" destination="2Gn-Gq-OMQ" collectionClass="NSMutableArray" id="SZS-6S-rBs"/>
+                        <outletCollection property="chessSquare3" destination="6gM-3P-4oH" collectionClass="NSMutableArray" id="bsf-JY-WK8"/>
+                        <outletCollection property="chessSquare3" destination="CYx-Hd-JRm" collectionClass="NSMutableArray" id="lZX-zW-D4I"/>
+                        <outletCollection property="chessSquare3" destination="B4L-Nr-Iv5" collectionClass="NSMutableArray" id="8J2-k7-cO3"/>
+                        <outletCollection property="chessSquare3" destination="qIu-yf-E1v" collectionClass="NSMutableArray" id="xkS-31-pe8"/>
+                        <outletCollection property="chessSquare3" destination="cIZ-il-0Wa" collectionClass="NSMutableArray" id="4y7-kI-Swg"/>
+                        <outletCollection property="chessSquare3" destination="RCX-dp-t8f" collectionClass="NSMutableArray" id="dqB-Q1-FTS"/>
+                        <outletCollection property="chessSquare3" destination="m5D-xC-U4W" collectionClass="NSMutableArray" id="QnR-vE-gva"/>
+                        <outletCollection property="chessSquare3" destination="dk6-DV-Zj2" collectionClass="NSMutableArray" id="GYv-sH-Bbq"/>
+                        <outletCollection property="chessSquare4" destination="VIi-Fd-2pa" collectionClass="NSMutableArray" id="j6L-7R-DtS"/>
+                        <outletCollection property="chessSquare5" destination="wLD-c9-ajy" collectionClass="NSMutableArray" id="fH1-MR-LaB"/>
+                        <outletCollection property="chessSquare6" destination="ksv-qi-DKS" collectionClass="NSMutableArray" id="Mzj-Vh-wWB"/>
+                        <outletCollection property="chessSquare7" destination="oLS-5l-42W" collectionClass="NSMutableArray" id="hgC-Wy-Fnm"/>
+                        <outletCollection property="chessSquare4" destination="XED-hB-8Mg" collectionClass="NSMutableArray" id="lh0-GT-AyY"/>
+                        <outletCollection property="chessSquare5" destination="rY1-mf-ogO" collectionClass="NSMutableArray" id="zDO-Bu-oG6"/>
+                        <outletCollection property="chessSquare6" destination="7XK-Cc-auu" collectionClass="NSMutableArray" id="mxl-81-ZBE"/>
+                        <outletCollection property="chessSquare7" destination="XjZ-e7-zif" collectionClass="NSMutableArray" id="gla-aL-xCu"/>
+                        <outletCollection property="chessSquare4" destination="aLw-u6-GhW" collectionClass="NSMutableArray" id="KKh-sS-b9B"/>
+                        <outletCollection property="chessSquare5" destination="K55-qM-7Qt" collectionClass="NSMutableArray" id="fo2-dm-648"/>
+                        <outletCollection property="chessSquare6" destination="OGl-fn-SSK" collectionClass="NSMutableArray" id="04a-bE-b7N"/>
+                        <outletCollection property="chessSquare7" destination="Ov4-yz-eHy" collectionClass="NSMutableArray" id="Kpf-wz-Ude"/>
+                        <outletCollection property="chessSquare4" destination="mYs-2m-2xy" collectionClass="NSMutableArray" id="xoe-Gd-1n4"/>
+                        <outletCollection property="chessSquare5" destination="u7L-EV-YbL" collectionClass="NSMutableArray" id="BDC-R9-Mj9"/>
+                        <outletCollection property="chessSquare6" destination="lBw-Uw-Esa" collectionClass="NSMutableArray" id="TjU-hI-RPI"/>
+                        <outletCollection property="chessSquare7" destination="YpG-pL-pu0" collectionClass="NSMutableArray" id="UjR-ay-uOk"/>
+                        <outletCollection property="chessSquare4" destination="Tjh-d9-w1L" collectionClass="NSMutableArray" id="YAj-Z2-N2O"/>
+                        <outletCollection property="chessSquare5" destination="ALL-26-yiu" collectionClass="NSMutableArray" id="CwI-h9-pee"/>
+                        <outletCollection property="chessSquare6" destination="n09-0w-2gE" collectionClass="NSMutableArray" id="yyI-Nq-Zx9"/>
+                        <outletCollection property="chessSquare7" destination="VJO-oG-dQC" collectionClass="NSMutableArray" id="Xd1-EM-oue"/>
+                        <outletCollection property="chessSquare4" destination="GeM-n7-0iK" collectionClass="NSMutableArray" id="rkX-45-YWE"/>
+                        <outletCollection property="chessSquare5" destination="SxX-tc-sO9" collectionClass="NSMutableArray" id="4Ui-Yr-uXa"/>
+                        <outletCollection property="chessSquare6" destination="qKH-ZX-fKQ" collectionClass="NSMutableArray" id="lUP-xc-OgH"/>
+                        <outletCollection property="chessSquare7" destination="28G-Ix-54n" collectionClass="NSMutableArray" id="UQV-EX-Vuu"/>
+                        <outletCollection property="chessSquare4" destination="lrh-qv-seC" collectionClass="NSMutableArray" id="qg5-vZ-nQT"/>
+                        <outletCollection property="chessSquare5" destination="f89-i3-Y5c" collectionClass="NSMutableArray" id="Aew-cw-w9R"/>
+                        <outletCollection property="chessSquare6" destination="mMq-Ke-6Wv" collectionClass="NSMutableArray" id="cA1-CO-saY"/>
+                        <outletCollection property="chessSquare7" destination="6Rz-q7-xry" collectionClass="NSMutableArray" id="0LI-BD-F3X"/>
+                        <outletCollection property="chessSquare4" destination="wbn-9m-Knh" collectionClass="NSMutableArray" id="9xU-3Y-fWy"/>
+                        <outletCollection property="chessSquare5" destination="dIi-gl-BfY" collectionClass="NSMutableArray" id="5cO-xJ-VE5"/>
+                        <outletCollection property="chessSquare6" destination="dOe-Hy-cxg" collectionClass="NSMutableArray" id="DqY-CX-D2g"/>
+                        <outletCollection property="chessSquare7" destination="GUM-MJ-QlT" collectionClass="NSMutableArray" id="vNK-Lr-wwW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

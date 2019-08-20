@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  3pleKnightMove
 //
-//  Created by Filippos Pirpilidis on 05/08/2019.
+//  Created by Filippos Pirpilidis on 19/08/2019.
 //  Copyright © 2019 Filippos Pirpilidis. All rights reserved.
 //
 
@@ -46,9 +46,6 @@ class ViewController: UIViewController {
     
     @IBAction func calculateButtonAction(_ sender: UIButton) {
         calculate_moves(chessBoard: chessBoard)
-        for i in 0...chessBoard[7].count - 1 {
-            print("\(chessBoard[7][i])")
-        }
     }
     
     var move_count : Int = 0
@@ -556,4 +553,3 @@ class ViewController: UIViewController {
     }
     
 }
-
